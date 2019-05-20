@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SistemaEncuestas.Entidades.Entities.Administrador">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAAAAIAAAAAiAAAEAAAAAAA=</HashCode>
+      <FileName>Entities\Administrador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.AuditoriaIngreso">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Entities\AuditoriaIngreso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.Empresa">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgiAAgAAAAAAAAAAgAEAAAAAAAAA=</HashCode>
+      <FileName>Entities\Empresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.Encuesta">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAACAAAgAABAAAAAAAgKEAAAAAAAAA=</HashCode>
+      <FileName>Entities\Encuesta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.ItemPlanEncuesta">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEBAAAAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ItemPlanEncuesta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.PlanEmpresa">
+    <Position X="9.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAEAAAAABAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Entities\PlanEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.ItemPregunta">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABABAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Entities\ItemPregunta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.Metadata">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Metadata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.PagoPlan">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIEQAEAAgAAAAMAkAIAIgAA=</HashCode>
+      <FileName>Entities\PagoPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.Pregunta">
+    <Position X="0.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABABAACAAAABAAABAAAAAAEAIAAAAAAAkAA=</HashCode>
+      <FileName>Entities\Pregunta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.RolEmpresa">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAABAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\RolEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.UsuarioEmpresa">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAQAAAAoAAAAIAAAAAiAEAkAAAAQAA=</HashCode>
+      <FileName>Entities\UsuarioEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.PlanEncuesta">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAAAAAAAAAAgAERAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PlanEncuesta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Comun.DataUser">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAQAAAAgAAAAAAAAAAAAEAEAAAAAAA=</HashCode>
+      <FileName>Comun\DataUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Entidades.Entities.Respuesta">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAABAAAAAAAAAAEAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Respuesta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

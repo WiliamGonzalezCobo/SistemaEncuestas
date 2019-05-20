@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SistemaEncuestas.Datos.Infrastructure.Class.ConnectionFactory">
+    <Position X="0.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Class\ConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.AdministradorRepositorio">
+    <Position X="3.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAFAAAAAAAAAAAAAAAAAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\AdministradorRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.AuditoriaIngresoRepositorio">
+    <Position X="6.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAFAAAAAAAAAAAAAAAAAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\AuditoriaIngresoRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.EmpresaRepositorio">
+    <Position X="8.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAEAAAAAAAAAAAAAAAIAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\EmpresaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.EncuestaRepositorio">
+    <Position X="11" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAMAAAAAAAABAAAAAAIAAAAAkAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\EncuestaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.ItemPreguntaRepositorio">
+    <Position X="13.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAEAAAAAAAABAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\ItemPreguntaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.MetadataRepositorio">
+    <Position X="15.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAEAAAAAAAAAAAAAAAIAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\MetadataRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.PagoPlanRepositorio">
+    <Position X="18" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAEAAAAAAAAAAAAAAAIAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\PagoPlanRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.PlanEncuestaRepositorio">
+    <Position X="20.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAEAAAAAAAAAAAAAAAIAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\PlanEncuestaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.PreguntaRepositorio">
+    <Position X="22.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAEAAAAAAAABAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\PreguntaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.UsuarioEmpresaRepositorio">
+    <Position X="27.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAFAAAAAAAAAAAAAAAIAAAAAgAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\UsuarioEmpresaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SistemaEncuestas.Datos.Repository.Class.RespuestaRepositorio">
+    <Position X="25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Repository\Class\RespuestaRepositorio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SistemaEncuestas.Datos.Infrastructure.Interfaces.IConnectionFactory">
+    <Position X="0.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Interfaces\IConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IAdministradorRepositorio">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IAdministradorRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IAuditoriaIngresoRepositorio">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IAuditoriaIngresoRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IEmpresaRepositorio">
+    <Position X="8.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IEmpresaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IEncuestaRepositorio">
+    <Position X="11" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAIAAAAAAAABAAAAAAIAAAAAkAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IEncuestaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IItemPreguntaRepositorio">
+    <Position X="13.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IItemPreguntaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IMetadataRepositorio">
+    <Position X="15.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IMetadataRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IPagoPlanRepositorio">
+    <Position X="18" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IPagoPlanRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IPlanEncuestaRepositorio">
+    <Position X="20.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IPlanEncuestaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IPreguntaRepositorio">
+    <Position X="22.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IPreguntaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IUsuarioEmpresaRepositorio">
+    <Position X="27.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IUsuarioEmpresaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SistemaEncuestas.Datos.Repository.Interfaces.IRespuestaRepositorio">
+    <Position X="25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\Interfaces\IRespuestaRepositorio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98D521A0-BCF9-457D-B6FD-50AB18F40CA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaEncuestas.Datos</RootNamespace>
+    <AssemblyName>SistemaEncuestas.Datos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.4.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.4.0\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infrastructure\Class\ConnectionFactory.cs" />
+    <Compile Include="Infrastructure\Interfaces\IConnectionFactory.cs" />
+    <Compile Include="Module\DataModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Class\AdministradorRepositorio.cs" />
+    <Compile Include="Repository\Class\AuditoriaIngresoRepositorio.cs" />
+    <Compile Include="Repository\Class\EmpresaRepositorio.cs" />
+    <Compile Include="Repository\Class\EncuestaRepositorio.cs" />
+    <Compile Include="Repository\Class\ItemPreguntaRepositorio.cs" />
+    <Compile Include="Repository\Class\MetadataRepositorio.cs" />
+    <Compile Include="Repository\Class\PagoPlanRepositorio.cs" />
+    <Compile Include="Repository\Class\PlanEncuestaRepositorio.cs" />
+    <Compile Include="Repository\Class\PreguntaRepositorio.cs" />
+    <Compile Include="Repository\Class\RespuestaRepositorio.cs" />
+    <Compile Include="Repository\Class\UsuarioEmpresaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IAdministradorRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IAuditoriaIngresoRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IEmpresaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IEncuestaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IItemPreguntaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IMetadataRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IPagoPlanRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IPlanEncuestaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IPreguntaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IRespuestaRepositorio.cs" />
+    <Compile Include="Repository\Interfaces\IUsuarioEmpresaRepositorio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Diagram\ClassDiagram_Datos.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaEncuestas.Entidades\SistemaEncuestas.Entidades.csproj">
+      <Project>{11b72a83-8e22-4331-becb-1062d2799703}</Project>
+      <Name>SistemaEncuestas.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

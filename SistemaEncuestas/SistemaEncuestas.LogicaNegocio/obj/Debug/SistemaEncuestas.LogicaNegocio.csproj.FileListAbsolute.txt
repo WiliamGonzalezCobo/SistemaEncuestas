@@ -1,0 +1,12 @@
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\SistemaEncuestas.LogicaNegocio.dll.config
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\SistemaEncuestas.LogicaNegocio.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\SistemaEncuestas.LogicaNegocio.pdb
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\Newtonsoft.Json.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\SistemaEncuestas.Entidades.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\System.Net.Http.Formatting.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\SistemaEncuestas.Entidades.pdb
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\Newtonsoft.Json.xml
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\bin\Debug\System.Net.Http.Formatting.xml
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\obj\Debug\SistemaEncuestas.LogicaNegocio.csprojResolveAssemblyReference.cache
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\obj\Debug\SistemaEncuestas.LogicaNegocio.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.LogicaNegocio\obj\Debug\SistemaEncuestas.LogicaNegocio.pdb

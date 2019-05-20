@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SistemaEncuestas.Servicios.WebApiConfig">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.WebApiApplication">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.EmpresaController">
+    <Position X="10" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACQAAAAAAAAAAAAAAAAo=</HashCode>
+      <FileName>Controllers\EmpresaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.PlanEncuestaController">
+    <Position X="7.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgABAAAAAAAAACQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PlanEncuestaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.UsuarioEmpresaController">
+    <Position X="11.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAABAAAAAAAAACQAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Controllers\UsuarioEmpresaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.AdministradorController">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>Controllers\AdministradorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Module.ServicesModule">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Module\ServicesModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.AuditoriaIngresoController">
+    <Position X="7.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAAAAAAAACQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AuditoriaIngresoController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.EncuestaController">
+    <Position X="12" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAABAAAAAAAAACQEQAAAAAEAAAAgAAAg=</HashCode>
+      <FileName>Controllers\EncuestaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.MetadataController">
+    <Position X="14.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACQAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MetadataController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.PagoPlanController">
+    <Position X="5.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAABACQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PagoPlanController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SistemaEncuestas.Servicios.Controllers.RespuestaController">
+    <Position X="9.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAECQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\RespuestaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

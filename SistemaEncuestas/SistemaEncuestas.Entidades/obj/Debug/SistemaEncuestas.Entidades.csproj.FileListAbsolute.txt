@@ -1,0 +1,11 @@
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\SistemaEncuestas.Entidades.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\SistemaEncuestas.Entidades.pdb
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\SistemaEncuestas.Utilidades.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\log4net.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\Newtonsoft.Json.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\SistemaEncuestas.Utilidades.pdb
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\log4net.xml
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\bin\Debug\Newtonsoft.Json.xml
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\obj\Debug\SistemaEncuestas.Entidades.csprojResolveAssemblyReference.cache
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\obj\Debug\SistemaEncuestas.Entidades.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Entidades\obj\Debug\SistemaEncuestas.Entidades.pdb

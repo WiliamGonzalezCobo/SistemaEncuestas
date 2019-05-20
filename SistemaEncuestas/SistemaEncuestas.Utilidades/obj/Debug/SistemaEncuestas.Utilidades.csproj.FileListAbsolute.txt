@@ -1,0 +1,12 @@
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\SistemaEncuestas.Utilidades.dll.config
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\SistemaEncuestas.Utilidades.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\SistemaEncuestas.Utilidades.pdb
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\log4net.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\Newtonsoft.Json.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\log4net.xml
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\bin\Debug\Newtonsoft.Json.xml
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\obj\Debug\SistemaEncuestas.Utilidades.csprojResolveAssemblyReference.cache
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\obj\Debug\SistemaEncuestas.Utilidades.Recursos.Mensajes.resources
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\obj\Debug\SistemaEncuestas.Utilidades.csproj.GenerateResource.Cache
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\obj\Debug\SistemaEncuestas.Utilidades.dll
+D:\Files\Workspaces\SistemaEncuestas\SistemaEncuestas.Utilidades\obj\Debug\SistemaEncuestas.Utilidades.pdb

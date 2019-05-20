@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Datos", "01. Datos", "{6CECB9E1-E7CE-48CD-81E7-1EFAD710E02D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Lógica Negocio", "04. Lógica Negocio", "{3352036C-6DB9-48A1-9553-B2904F4FC49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Servicios", "03. Servicios", "{21384765-3A6A-4607-9FD7-CCA72EB95C39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Integración", "02. Integración", "{5F366A25-268F-4DA0-8CB8-D5D8BF4215B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Presentación", "05. Presentación", "{B576014A-5087-4BC3-86C7-062DBAF8B980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.Datos", "SistemaEncuestas.Datos\SistemaEncuestas.Datos.csproj", "{98D521A0-BCF9-457D-B6FD-50AB18F40CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.Servicios", "SistemaEncuestas.Servicios\SistemaEncuestas.Servicios.csproj", "{785F3C9A-FA82-4F7C-8A33-6F7828FF2668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.LogicaNegocio", "SistemaEncuestas.LogicaNegocio\SistemaEncuestas.LogicaNegocio.csproj", "{4F832EFA-929B-4C4C-8F92-B17C1367655D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Transversales", "06. Transversales", "{802917B4-741D-4A98-9E30-6141A19E8DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.Integracion", "SistemaEncuestas.Integracion\SistemaEncuestas.Integracion.csproj", "{E00035E6-3E83-4A02-9516-A9AE7CDA4BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.Utilidades", "SistemaEncuestas.Utilidades\SistemaEncuestas.Utilidades.csproj", "{137E0B61-B7F1-4879-8F8C-AF33C5420FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.Entidades", "SistemaEncuestas.Entidades\SistemaEncuestas.Entidades.csproj", "{11B72A83-8E22-4331-BECB-1062D2799703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaEncuestas.WebSite", "SistemaEncuestas.WebSite\SistemaEncuestas.WebSite.csproj", "{7E2D4656-2463-4438-AA67-35CBCAFADB08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D521A0-BCF9-457D-B6FD-50AB18F40CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D521A0-BCF9-457D-B6FD-50AB18F40CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D521A0-BCF9-457D-B6FD-50AB18F40CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D521A0-BCF9-457D-B6FD-50AB18F40CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785F3C9A-FA82-4F7C-8A33-6F7828FF2668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785F3C9A-FA82-4F7C-8A33-6F7828FF2668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785F3C9A-FA82-4F7C-8A33-6F7828FF2668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785F3C9A-FA82-4F7C-8A33-6F7828FF2668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F832EFA-929B-4C4C-8F92-B17C1367655D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F832EFA-929B-4C4C-8F92-B17C1367655D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F832EFA-929B-4C4C-8F92-B17C1367655D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F832EFA-929B-4C4C-8F92-B17C1367655D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00035E6-3E83-4A02-9516-A9AE7CDA4BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00035E6-3E83-4A02-9516-A9AE7CDA4BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00035E6-3E83-4A02-9516-A9AE7CDA4BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00035E6-3E83-4A02-9516-A9AE7CDA4BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137E0B61-B7F1-4879-8F8C-AF33C5420FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137E0B61-B7F1-4879-8F8C-AF33C5420FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137E0B61-B7F1-4879-8F8C-AF33C5420FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137E0B61-B7F1-4879-8F8C-AF33C5420FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B72A83-8E22-4331-BECB-1062D2799703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B72A83-8E22-4331-BECB-1062D2799703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B72A83-8E22-4331-BECB-1062D2799703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B72A83-8E22-4331-BECB-1062D2799703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2D4656-2463-4438-AA67-35CBCAFADB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2D4656-2463-4438-AA67-35CBCAFADB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2D4656-2463-4438-AA67-35CBCAFADB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2D4656-2463-4438-AA67-35CBCAFADB08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98D521A0-BCF9-457D-B6FD-50AB18F40CA9} = {6CECB9E1-E7CE-48CD-81E7-1EFAD710E02D}
+		{785F3C9A-FA82-4F7C-8A33-6F7828FF2668} = {21384765-3A6A-4607-9FD7-CCA72EB95C39}
+		{4F832EFA-929B-4C4C-8F92-B17C1367655D} = {3352036C-6DB9-48A1-9553-B2904F4FC49A}
+		{E00035E6-3E83-4A02-9516-A9AE7CDA4BC6} = {5F366A25-268F-4DA0-8CB8-D5D8BF4215B8}
+		{137E0B61-B7F1-4879-8F8C-AF33C5420FBA} = {802917B4-741D-4A98-9E30-6141A19E8DBB}
+		{11B72A83-8E22-4331-BECB-1062D2799703} = {802917B4-741D-4A98-9E30-6141A19E8DBB}
+		{7E2D4656-2463-4438-AA67-35CBCAFADB08} = {B576014A-5087-4BC3-86C7-062DBAF8B980}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sistemaencuestas.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SistemaEncuestas.Datos\\SistemaEncuestas.Datos.csproj
+		SccProjectTopLevelParentUniqueName1 = SistemaEncuestas.sln
+		SccProjectName1 = SistemaEncuestas.Datos
+		SccLocalPath1 = SistemaEncuestas.Datos
+		SccProjectUniqueName2 = SistemaEncuestas.Servicios\\SistemaEncuestas.Servicios.csproj
+		SccProjectTopLevelParentUniqueName2 = SistemaEncuestas.sln
+		SccProjectName2 = SistemaEncuestas.Servicios
+		SccLocalPath2 = SistemaEncuestas.Servicios
+		SccProjectUniqueName3 = SistemaEncuestas.LogicaNegocio\\SistemaEncuestas.LogicaNegocio.csproj
+		SccProjectTopLevelParentUniqueName3 = SistemaEncuestas.sln
+		SccProjectName3 = SistemaEncuestas.LogicaNegocio
+		SccLocalPath3 = SistemaEncuestas.LogicaNegocio
+		SccProjectUniqueName4 = SistemaEncuestas.Integracion\\SistemaEncuestas.Integracion.csproj
+		SccProjectTopLevelParentUniqueName4 = SistemaEncuestas.sln
+		SccProjectName4 = SistemaEncuestas.Integracion
+		SccLocalPath4 = SistemaEncuestas.Integracion
+		SccProjectUniqueName5 = SistemaEncuestas.Utilidades\\SistemaEncuestas.Utilidades.csproj
+		SccProjectTopLevelParentUniqueName5 = SistemaEncuestas.sln
+		SccProjectName5 = SistemaEncuestas.Utilidades
+		SccLocalPath5 = SistemaEncuestas.Utilidades
+		SccProjectUniqueName6 = SistemaEncuestas.Entidades\\SistemaEncuestas.Entidades.csproj
+		SccProjectTopLevelParentUniqueName6 = SistemaEncuestas.sln
+		SccProjectName6 = SistemaEncuestas.Entidades
+		SccLocalPath6 = SistemaEncuestas.Entidades
+		SccProjectUniqueName7 = SistemaEncuestas.WebSite\\SistemaEncuestas.WebSite.csproj
+		SccProjectTopLevelParentUniqueName7 = SistemaEncuestas.sln
+		SccProjectName7 = SistemaEncuestas.WebSite
+		SccLocalPath7 = SistemaEncuestas.WebSite
+	EndGlobalSection
+EndGlobal
